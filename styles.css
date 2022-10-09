@@ -1,0 +1,94 @@
+/* Variables
+============================= */
+       :root {
+        --color-primary: #C271FF;
+        --color-black:  #090909;
+        --color-white: #ffffff;
+        --color-dark: purple;
+        --color-darker:#071629;
+
+        --font-family-base: "Source Sans Pro";
+        --font-family-hbtn: "holberton_school-icon";
+
+        --font-size-x-small: 14px;
+        --font-size-small: 16px;
+        --font-size-medium: 18px;
+        --font-size-large: 32px;
+        --font-size-x-large: 46px;
+        --font-size-h1: 7.5rem;
+
+        --font-weight-bold: 900;
+    }
+
+/* Base
+============================ */
+        body {
+            font-family: var(--font-family-base);
+        }
+
+        .btn-primary {
+            background-color: var(--color-primary);
+            border: var(--color-primary);
+            border-radius: 1.5rem;
+            font-size: var(--font-size-x-small);
+        }
+
+        .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+            background-color: var(--color-dark);
+            opacity: 0.9
+        }
+
+        .nav-item .nav-link:hover {
+            color: var(--color-primary) !important;
+        }
+
+/* Header / Hero Section
+============================= */
+      header {
+          background-image: url(./images/pic_1.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+      }
+
+      .display-1 {
+          font-size: var(--font-size-h1);
+      }
+
+      .profile li a ~ p {
+          font-size: var(--font-size-medium);
+      }
+
+      a.nav-link {
+          font-size: var(--font-size-x-small);
+      }
+
+      .highlight {
+          color: var(--color-primary);
+          padding-top: 5rem;
+      }
+
+      .highlight small {
+          color: var(--color-white);
+      }
+
+      .navbar-icon, .font-icon {
+          font-family: holberton_school-icon;
+          font-size: var(--font-size-large);
+      }
+
+
+/* Courses Header 
+====================== */
+      .header-courses {
+          background-image: url(./images/pic_3.jpg);
+      }
+
+      .highlight-3 {
+          font-family: Coiny;
+          max-width: 43rem;
+      }
+
+      .highlight-3 h1 small{
+          color: var(--color-primary);
+      }
